@@ -2,7 +2,7 @@
 class PresentationApp {
     constructor() {
         this.currentSlide = 1;
-        this.totalSlides = 13;
+        this.totalSlides = 12;
         this.slides = document.querySelectorAll('.slide');
         this.isTransitioning = false;
         
@@ -407,19 +407,18 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Add slide notes functionality (for presenter mode)
     const slideNotes = {
-        1: "Welcome to our AI automation proposal for Compass.com. Today we'll show how Criyx.com can transform your operations.",
-        2: "Criyx.com specializes in real estate automation with proven expertise in sales operations and lead management.",
-        3: "Compass faces significant challenges including declining agent productivity and high operational costs.",
-        4: "AI automation offers measurable improvements across all key business metrics with proven ROI.",
-        5: "Our comprehensive AI agent architecture covers all major business functions with scalable integration.",
-        6: "Sales operations automation addresses your core revenue challenges with proven results.",
-        7: "Financial operations automation provides significant cost savings and accuracy improvements.",
-        8: "HR operations automation streamlines talent management and reduces administrative overhead.",
-        9: "Customer experience enhancement delivers 24/7 support and personalized service at scale.",
-        10: "Our phased implementation approach minimizes risk while maximizing value delivery.",
-        11: "Expected ROI demonstrates clear business value with measurable outcomes and timeline.",
-        12: "Criyx.com offers unique advantages as your strategic partner in digital transformation.",
-        13: "Ready to move forward with a risk-free pilot program. Let's start the conversation."
+        1: "Welcome! This presentation outlines how AI can revolutionize your business operations.",
+        2: "Criyx.com is a leader in creating custom AI solutions that drive growth and efficiency.",
+        3: "Businesses today face rising costs, inefficient manual workflows, and the challenge of data overload.",
+        4: "AI provides a powerful solution, boosting productivity, cutting costs, and improving lead quality.",
+        5: "For real estate, AI can automate lead scoring, offer personalized property recommendations, and provide 24/7 support.",
+        6: "In the restaurant industry, AI can automate ordering, optimize inventory, and deliver personalized marketing.",
+        7: "For e-commerce, AI enables dynamic pricing, hyper-personalization, and supply chain optimization.",
+        8: "Our AI ecosystem is a comprehensive solution covering sales, operations, and customer experience.",
+        9: "We follow a clear, phased roadmap to ensure a smooth and successful AI transformation.",
+        10: "Expect a significant and measurable return on your investment, with clear business value.",
+        11: "Criyx.com is your trusted partner, offering deep expertise and custom-tailored solutions.",
+        12: "Let's discuss how we can build the future of your business together. Schedule a demo to get started."
     };
     
     // Make slide notes available globally
